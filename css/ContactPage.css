@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+}
+
+.container{
+	width: 100%;
+}
+.MapsTextSize{
+	font-size: 12px;
+	margin-left: 20px;
+}
+.left40{
+	margin-left: 40px;
+}
+
+.nav{
+	box-shadow: 0 0 50px rgba(0,0,0,0.1);
+}
+.nav .wrapper{
+	width: 1500px;
+	height: 100px;
+
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__logo{
+	width: 275px;
+}
+.nav__menu{
+	display: flex;
+
+	gap: 40px;
+}
+
+.nav__item{
+	list-style-type: none;
+}
+.nav__link{
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #484848;
+}
+
+.nav__phone{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #484848;
+}
+
+
+
+/* Contacts */
+
+.MapsLastPage{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 100px;
+}
+.MapsBlockFirst{
+	width: 1080px;
+	height: 400px;
+	background-image: url(../img/FirstMap.png);
+	background-size: 100%;
+}
+.BlockInsideMapFirst{
+	width: 270px;
+	height: 350px;
+	background: white;
+	margin: 30px 0px 0px 50px ;
+}
+.MapsBlockSecond{
+	width: 1080px;
+	height: 400px;
+	background-image: url(../img/SecondMap.png);
+	background-size: 100%;
+	margin-top: 50px;
+}
+.BlockInsideMapSecond{
+	width: 270px;
+	height: 350px;
+	background: white;
+	margin: 30px 0px 0px 760px ;
+}
+.MapsBlockThree{
+	width: 1080px;
+	height: 400px;
+	background-image: url(../img/ThreeMap.png);
+	background-size: 100%;
+	margin-top: 50px;
+}
+.BlockInsideMapThree{
+	width: 270px;
+	height: 350px;
+	background: white;
+	margin: 30px 0px 0px 50px ;
+}
+.MapLogoImg{
+	width: 140px;
+	height: 43px;
+	margin-left: 70px;
+	margin-top: 10px;
+}
+.ImgForContactInstagram{
+	width: 25px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.ImgForContactTelegram{
+	width: 25px;
+	margin-left: 5px;
+}
+.ImgForContactWhatsapp{
+	width: 25px;
+	margin-left: 5px;
+}
+.ImgForContactFacebook{
+	width: 25px;
+	margin-left: 5px;
+}
+
+/* End Of Contact*/
+
+
+/* Footer */

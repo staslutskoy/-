@@ -62,18 +62,7 @@ body{
 	color: #484848;
 }
 
-/*NAV END*/
-@@ -0,0 +1,200 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-body{
-	font-family: 'Montserrat', sans-serif;
-	position: relative;
-}
-
-.container{
-	width: 100%;
-}
 
 /*NAV*/
 
@@ -200,11 +189,23 @@ object-fit: cover;
     margin: 0 auto;
 }
 
-.dors .title{
+
+
+/* Види виробів*/
+
+
+.FirstLineOfVar , .SecondLineOfVar{
+	width: 1400px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin: auto;
+}
+.dors , .title{
     margin: 100px 0;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 59px;
     /* identical to box height */
 
@@ -226,12 +227,12 @@ object-fit: cover;
     text-align: center;
     margin-bottom: 130px;
 }
-.dors .wrapper .dor-name{
+.dors  	 .wrapper .dor-name{
     margin-bottom: 24px;
     text-align: center;
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 34px;
     line-height: 44px;
     color: #212121;
 }
@@ -239,7 +240,7 @@ object-fit: cover;
     margin-bottom: 45px;
     font-style: normal;
     font-weight: 300;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 34px;
     text-align: center;
     color: #212121;
@@ -264,6 +265,22 @@ object-fit: cover;
 .column-2, .column-5{
     margin: 0 180px;
 }
+
+
+
+/* Our works */
+
+.gallery-photoBlock1 , .gallery-photoBlock2 , .gallery-photoBlock3{
+	width: 1400px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+/* End of Our works */
+
+
 
 /* Contacts */
 
