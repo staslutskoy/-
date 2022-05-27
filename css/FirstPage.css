@@ -357,4 +357,19 @@ object-fit: cover;
 /* End Of Contact*/
 
 
+
+/* Our Brends */
+
+.OurDorsBrends , .OurDorsVikna{
+	width: 100%;
+	text-align: center;
+}
+.OurDorsBrendName , .OurViknaBrendName{
+	display: flex;
+	justify-content: space-around;
+}
+
+/*END of Our Brends*/
+
+
 /* Footer */
